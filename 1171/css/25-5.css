@@ -1,0 +1,111 @@
+.type-25-5 .content5 {
+  color: #73879C;
+  font-size: 13px;
+}
+.type-25-5 .content5 a {
+  color: #5A738E;
+  text-decoration: none;
+}
+.type-25-5 .content5 .x_panel {
+  width: 100%;
+  padding: 10px 17px;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #E6E9ED;
+  opacity: 1;
+}
+.type-25-5 .content5 .x_title {
+  border-bottom: 2px solid #E6E9ED;
+  padding: 1px 5px 6px;
+}
+.type-25-5 .content5 h2 {
+  margin: 5px 0 6px;
+  float: left;
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.type-25-5 .content5 .panel_toolbox>li {
+  float: left;
+  cursor: pointer;
+}
+.type-25-5 .content5 .panel_toolbox>li>a {
+  padding: 5px;
+  color: #C5C7CB;
+  font-size: 14px;
+}
+.type-25-5 .content5 .x_content {
+  padding: 0 5px 6px;
+  float: left;
+  clear: both;
+  margin-top: 27px;
+  width: 100%;
+}
+.type-25-5 .content5 .x_content h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.type-25-5 .content5 table.countries_list td {
+  padding: 0 22px;
+  line-height: 30px;
+  border-top: 1px solid #eee;
+}
+.type-25-5 .content5 p {
+  padding: 0px;
+}
+.type-25-5 .content5 ul {
+  padding: 0px;
+}
+.type-25-5 .content5 ul.to_do li {
+  background: #f3f3f3;
+  border-radius: 3px;
+  position: relative;
+  padding: 1px;
+  margin-bottom: 5px;
+  list-style: none;
+}
+.type-25-5 .content5 .flat {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+}
+.type-25-5 .content5 p {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.type-25-5 .content5 .degrees:after {
+  content: "o";
+  top: -12px;
+  font-size: 16px;
+  font-weight: 300;
+  position: relative;
+}
+.type-25-5 .content5 .daily-weather .day {
+  font-size: 14px;
+  border-top: 2px solid rgba(115,135,156,0.36);
+  text-align: center;
+  border-bottom: 2px solid rgba(115,135,156,0.36);
+  padding: 5px 0;
+}
+@media (max-width: 1200px) {
+  h2 {
+    width: 58%;
+    font-size: 16px !important;
+  }
+  small {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .weather-text {
+    float: right;
+  }
+}

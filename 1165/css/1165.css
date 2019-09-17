@@ -1,0 +1,131 @@
+.type-i-22 {
+  font-family: Work San;
+}
+.type-i-22 .owl-carousel {
+  display: none;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.type-i-22 .owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0px,0px,0px);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.type-i-22 .owl-carousel .owl-item {
+  position: relative;
+  min-height: 1px;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+.type-i-22 .owl-carousel .owl-item img {
+  position: relative;
+  display: block;
+  width: 44%;
+  left: calc(65%);
+}
+.type-i-22 .owl-prev,
+.type-i-22 .owl-next {
+  display: none;
+}
+.type-i-22 .owl-carousel .owl-dots.disabled {
+  display: none;
+}
+.type-i-22 .owl-carousel.owl-loaded {
+  display: block;
+}
+.type-i-22 .owl-carousel.owl-loading {
+  opacity: 0;
+  display: block;
+}
+.type-i-22 h2 {
+  font-size: 1.4rem;
+}
+.type-i-22 .info-af-title {
+  display: flex;
+}
+.type-i-22 .rv {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.type-i-22 .rv a {
+  color: #000;
+  opacity: 0.6;
+}
+.type-i-22 .rv a:hover {
+  text-decoration: none;
+  color: #fc0;
+}
+.type-i-22 .star i {
+  color: #fc0;
+}
+.type-i-22 .sku {
+  border-left: solid 1px #e8e8e8;
+  padding-left: 10px;
+}
+.type-i-22 .sku span {
+  opacity: 0.4;
+  font-weight: bold;
+}
+.type-i-22 .logo {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0;
+  float: right;
+}
+.type-i-22 .logo .fb {
+  display: inline-block;
+}
+.type-i-22 .logo .fb a {
+  background: #1b4e9b;
+  display: block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  border-radius: 1px;
+}
+.type-i-22 .logo .twitter {
+  display: inline-block;
+}
+.type-i-22 .logo .twitter a {
+  background: #00aeef;
+  display: block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  border-radius: 1px;
+}
+.type-i-22 .logo .gplus {
+  display: inline-block;
+}
+.type-i-22 .logo .gplus a {
+  background: #c00;
+  display: block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  border-radius: 1px;
+}
+.type-i-22 .logo .rss {
+  display: inline-block;
+}
+.type-i-22 .logo .rss a {
+  background: #f86a02;
+  display: block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  border-radius: 1px;
+}
