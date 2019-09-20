@@ -18,19 +18,17 @@
     
 ?>
 <!DOCTYPE html>
-
-<html style="background-color: #f3f3f4;">
-
+<html lang="en">
     <head>
         <title>1165</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/font-awesome.css">  
+        <link rel="stylesheet" href="css/font-awesome.min.css">  
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="css/1165.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/1165.js"></script>
+        
     </head>
     <body>
         <?php include $dir_block.'/1165-content.php'; ?>
