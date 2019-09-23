@@ -22,12 +22,13 @@ body {
   right: 20px;
   top: -45px;
 }
-.social_icon span {
+.social_icon span i {
   font-size: 60px;
   margin-left: 10px;
   color: #FFC312;
+  margin-top: 13px;
 }
-.social_icon span:hover {
+.social_icon span i:hover {
   color: white;
   cursor: pointer;
 }
@@ -53,12 +54,13 @@ input:focus {
   margin-left: 15px;
   margin-right: 5px;
 }
-.login_btn {
+.btn-login {
   color: black;
   background-color: #FFC312;
   width: 100px;
+  margin-left: 126px;
 }
-.login_btn:hover {
+.btn-login:hover {
   color: black;
   background-color: white;
 }
@@ -67,4 +69,17 @@ input:focus {
 }
 .links a {
   margin-left: 4px;
+}
+i {
+  padding-left: 6px;
+}
+@media only screen and (min-width: 414px) and (max-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .card {
+    height: 80%;
+  }
+}
+@media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: Portrait) {
+  .btn-login {
+    margin-left: 110px;
+  }
 }

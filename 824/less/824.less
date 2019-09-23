@@ -1,35 +1,29 @@
-@color_1: #FFC312;
-@color_2: white;
-@color_3: black;
-@font_family_1: 'Numans', sans-serif;
-@background_color_1: rgba(0, 0, 0, 0.5);
-@background_color_2: #FFC312;
-@background_color_3: white;
-
+@import "../less/var.less";
 html,body  {
 	background-image: url('../images/544750.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 100%;
+	height: @height;
 	font-family: @font_family_1;
 }
 
 .container {
-	height: 100%;
+	height: @height;
 	align-content: center;
 }
 .card {
-	height: 370px;
+	height: @width-heigh + 270;
 	margin-top: auto;
 	margin-bottom: auto;
-	width: 400px;
+	width: @width-heigh + 300;
 	background-color: @background_color_1 !important;
 }
 .social_icon {
-	span {
+	span i {
 		font-size: 60px;
-		margin-left: 10px;
+		margin-left: @margin-padding - 90;
 		color: @color_1;
+		margin-top: @margin-padding - 87;
 		&:hover {
 			color: @color_2;
 			cursor: pointer;
@@ -46,7 +40,7 @@ html,body  {
 }
 .input-group-prepend {
 	span {
-		width: 50px;
+		width: @width-heigh - 50;
 		background-color: @background_color_2;
 		color: @color_3;
 		border: 0 !important;
@@ -61,16 +55,17 @@ input {
 .remember {
 	color: @color_2;
 	input {
-		width: 20px;
-		height: 20px;
-		margin-left: 15px;
-		margin-right: 5px;
+		width: @width-heigh - 80;
+		height: @width-heigh - 80;
+		margin-left: @margin-padding - 85;
+		margin-right: @margin-padding - 95;
 	}
 }
-.login_btn {
+.btn-login {
 	color: @color_3;
 	background-color: @background_color_2;
-	width: 100px;
+	width: @width-heigh;
+	margin-left: @margin-padding + 26;
 	&:hover {
 		color: @color_3;
 		background-color: @background_color_3;
@@ -79,6 +74,31 @@ input {
 .links {
 	color: @color_2;
 	a {
-		margin-left: 4px;
+		margin-left: @margin-padding - 96;
 	}
 }
+i{
+	padding-left: @margin-padding - 94;
+}
+@media only screen
+  and (min-width: 414px) 
+  and (max-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) 
+  and (orientation: landscape){ 
+	.card {
+		height: 80%;
+	}
+	
+}
+@media only screen
+  and (min-width: 375px)
+  and (max-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 3) 
+  and (orientation: Portrait){ 
+	.btn-login {
+		margin-left: @margin-padding + 10;
+		
+	}
+	
+}
+ 
