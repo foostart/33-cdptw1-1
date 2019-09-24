@@ -1,0 +1,48 @@
+.type-1173 .page-title {
+  float: left;
+}
+.type-1173 .page-title .title_left {
+  width: 45%;
+  float: left;
+  display: block;
+}
+.type-1173 .page-title h3 {
+  color: #93A2B2;
+}
+.type-1173 .page-title .title_right {
+  width: 100%;
+  left: 123px;
+  display: block;
+  margin-top: 10px;
+}
+.type-1173 .page-title .input-group {
+  margin-bottom: 10px;
+}
+.type-1173 .page-title .form-control {
+  border-radius: 25px 0 0 25px;
+  padding-left: 20px;
+  border: 1px solid #93A2B2;
+}
+.type-1173 .page-title .input-group-btn button {
+  border-radius: 0 25px 25px 0;
+  border: 1px solid #93A2B2;
+  border-left: 0;
+  color: #93A2B2;
+}
+@media (max-width: 480px) {
+  .type-1173 .page-title h3 {
+    font-size: 19px;
+  }
+  .type-1173 .page-title .title_right {
+    margin-top: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .type-1173 .page-title h3 {
+    font-size: 19px;
+    margin-top: 16px;
+  }
+  .type-1173 .page-title .title_right {
+    margin-top: 11px;
+  }
+}
