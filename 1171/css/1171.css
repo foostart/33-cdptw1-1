@@ -11,11 +11,11 @@
   padding: 10px 17px;
   display: inline-block;
   background: #fff;
-  border: 1px solid #73879C;
+  border: 1px solid #E6E9ED;
   opacity: 1;
 }
 .type-1171 .content5 .x_title {
-  border-bottom: 2px solid #73879C;
+  border-bottom: 2px solid #E6E9ED;
   padding: 1px 0 6px;
 }
 .type-1171 .content5 h2 {
@@ -61,7 +61,7 @@
 .type-1171 .content5 table.countries_list td {
   padding: 0 20px;
   line-height: 30px;
-  border-top: 1px inset #fff;
+  border-top: 1px inset #E6E9ED;
 }
 .type-1171 .content5 ul {
   padding: 0px 9px;
@@ -104,7 +104,7 @@
   padding: 5px 0;
 }
 .type-1171 .content5 h5 {
-  text-align: end;
+  text-align: center;
 }
 .type-1171 .content5 .countreis {
   white-space: nowrap;

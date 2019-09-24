@@ -33,13 +33,14 @@
         <script src="js/jquery.vmap.js" ></script>
         <script src="js/jquery.vmap.world.js"></script>
         <script src="js/jquery.vmap.sampledata.js" ></script>
-        <script src="<?php echo $url_path?>/js/custom.min.js"></script>
         
+        <script src="js/custom.min.js"></script>
         <script>
-            console.clear();
-        </script>
+        console.clear();
+    </script>
     </head>
     <body>
         <?php include $dir_block.'/1171-content.php'; ?>
+        
     </body>
 </html>
