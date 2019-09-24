@@ -26,12 +26,12 @@
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="css/1171.css" rel="stylesheet" type="text/css" />
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.min.js" ></script>
+        <script src="js/bootstrap.min.js" ></script>
         <script src="js/skycons.js"></script>
-        <script src="js/jquery.vmap.js"></script>
+        <script src="js/jquery.vmap.js" ></script>
         <script src="js/jquery.vmap.world.js"></script>
-        <script src="js/jquery.vmap.sampledata.js"></script>
+        <script src="js/jquery.vmap.sampledata.js" ></script>
         <script src="js/custom.min.js"></script>
     </head>
     <body>
