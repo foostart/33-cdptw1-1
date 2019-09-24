@@ -1,0 +1,133 @@
+@import "../var/var.less";
+.type-1171{   
+   
+    .content5{
+        color: @color;
+        font-size:@font-size - 3;
+        a {
+            color: @color;
+            text-decoration: none;
+        }
+        .x_panel {
+            width: @width;
+            padding: 10px 17px;
+            display: inline-block;
+            background: @color-1;
+            border: 1px solid @color;
+            opacity: 1;
+        }
+        .x_title {
+            border-bottom: 2px solid @color;
+            padding: 1px 0 6px;
+
+        }
+        h2 {
+            @h;
+            overflow: hidden;   
+        }
+        h3 {
+            @h;
+            padding-top: @padding-margin + 41;
+             
+        }
+
+
+        .panel_toolbox>li {
+            float: left;
+            cursor: pointer;
+        }
+        .panel_toolbox>li>a {
+            padding: @padding-margin - 5;
+            color: @color;
+            font-size: @font-size - 2;
+        }
+        .x_content {
+            padding: 0 5px 6px;
+            float: left;
+            clear: both;
+            margin-top: @padding-margin + 17;
+            width: @width;
+            h4 {
+                font-size: @font-size;
+                font-weight: @font-weight - 200;
+            }
+        }
+        table.countries_list td {
+            padding: 0 20px;
+            line-height: 30px;
+            border-top: 1px inset @color-1;
+        }
+
+        ul{
+            padding: 0px 9px;
+        }
+        ul.to_do li {
+            background: @color-1;
+            border-radius: 3px;
+            position: relative;
+            padding: @padding-margin - 9;
+            margin-bottom: @padding-margin - 5;
+            list-style: none;
+        }
+        .flat {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0;
+            padding: 0;
+            width: @width-height;
+            height: @width-height;
+            border: none;
+            cursor: pointer;
+        }
+        p{
+            margin-top: @padding-margin;
+            margin-left: @padding-margin - 5;
+            padding: 0px;
+        }
+        .degrees:after {
+            content: "o";
+            top: -10px;
+            font-size:@font-size;
+            font-weight: @font-weight;
+            position: relative;
+        }
+        .daily-weather .day {
+            font-size: @font-size - 2;
+            border-top: 2px solid @color;
+            text-align: center;
+            border-bottom: 2px solid @color;
+            padding: 5px 0;
+        }
+        h5{
+            text-align: end;
+        }
+    } 
+}
+@media (max-width: 1200px)
+{
+    .col-md-4 h2{
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 768px){
+    .weather-text{
+        float: right;
+    }
+    ul{
+        padding: 0px 9px;
+    }
+
+}
+@media (min-width: 360px){
+    .navbar-right{
+        float: right;
+        margin: 0 -15px;
+    }
+}
+
+
+
+
+
