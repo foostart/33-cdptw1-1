@@ -106,22 +106,31 @@
 .type-1171 .content5 h5 {
   text-align: end;
 }
+.type-1171 .content5 .countreis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+}
+.type-1171 .content5 ul .dropdown-menu {
+  left: -105px;
+}
 @media (max-width: 1200px) {
   .col-md-4 h2 {
     text-align: center;
   }
 }
-@media (min-width: 768px) {
-  .weather-text {
-    float: right;
-  }
+@media (max-width: 768px) {
   ul {
     padding: 0px 9px;
   }
 }
-@media (min-width: 360px) {
+@media (max-width: 360px) {
   .navbar-right {
     float: right;
     margin: 0 -15px;
+  }
+  .weather-text h3 {
+    padding: 0 !important;
   }
 }

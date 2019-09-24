@@ -37,7 +37,7 @@
                                             </div>
                                             <div class="x_content">
                                                 <div class="col-md-4">
-                                                    <h2>125.7k Views from 60 countries</h2>
+                                                    <h2 class="countreis"> 125.7k Views from 60 countries</h2>
 
                                                     <table class="countries_list">
                                                         <tbody>
