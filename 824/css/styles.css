@@ -69,6 +69,7 @@ input:focus {
 }
 .links a {
   margin-left: 4px;
+  text-decoration: none;
 }
 i {
   padding-left: 6px;

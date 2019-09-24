@@ -28,7 +28,6 @@ $less->compileFile('less/824.less', 'css/styles.css');
 
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
-    <script src="<?php echo $url_path ?>/js/824.js"></script>
     <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
 </head>
 

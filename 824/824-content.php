@@ -30,8 +30,6 @@ $url_path = str_replace('\\', '/', $url_path);
 							<span class="input-group-text"><i class="fa fa-user"></i></span>
 						</div>
 						<input type="text" class="form-control" placeholder="username" id="username">
-						
-						
 					</div>
 					<div class="input-group form-group">
 						<div class="input-group-prepend">
@@ -49,7 +47,7 @@ $url_path = str_replace('\\', '/', $url_path);
 				<div class="d-flex justify-content-center links">
 					Don't have an account?<a href="#">Sign Up</a>
 				</div>
-				<div class="d-flex justify-content-center">
+				<div class="d-flex justify-content-center links">
 					<a href="#">Forgot your password?</a>
 				</div>
 			</div>
