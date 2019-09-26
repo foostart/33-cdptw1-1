@@ -1,6 +1,6 @@
 .type-1172 .typography {
   color: #73879C;
-  font-size: 13px;
+  font-size: 18px;
   margin: 10px;
 }
 .type-1172 .typography a {
@@ -12,7 +12,7 @@
   padding: 10px 17px;
   display: inline-block;
   background: #fff;
-  border: 1px solid #9ca2aa;
+  border: 1px solid #E6E9ED;
   opacity: 1;
 }
 .type-1172 .typography .x_title {
@@ -27,7 +27,7 @@
   margin: 2px -7px 6px;
   float: left;
   display: block;
-  font-size: 14px;
+  font-size: 19px;
   font-weight: 400;
 }
 .type-1172 .typography small {
@@ -45,11 +45,7 @@
 .type-1172 .typography .panel_toolbox>li>a {
   padding: 5px;
   color: #73879C;
-  font-size: 14px;
-}
-.type-1172 .typography h2 {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 19px;
 }
 .type-1172 .typography h1,
 .type-1172 .typography h2,

@@ -13,7 +13,7 @@
             padding: 10px 17px;
             display: inline-block;
             background:@color-br;
-            border: 1px solid rgb(156, 162, 170);
+            border: 1px solid @border;
             opacity: 1;
 
         }
@@ -24,13 +24,13 @@
             .navbar-right{
                 margin-right: @mar-padd - 19;
             }
-        }
-        .x_title h2 {
-            margin: 2px -7px 6px;
-            float: left;
-            display: block;
-            font-size:@font-size;
-            font-weight: @font-weight;
+            h2 {
+                margin: 2px -7px 6px;
+                float: left;
+                display: block;
+                font-size: @font-size;
+                font-weight: @font-weight;
+            }
         }
         small{
             margin-left: @mar-padd;
@@ -49,10 +49,7 @@
             color: @color;
             font-size: @font-size;
         }
-        h2{
-            font-size: @font-size + 4;
-            font-weight: @font-weight;
-        }
+       
         h1,h2,h3{
             margin-top: @mar-padd;
         }
