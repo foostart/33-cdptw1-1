@@ -36,7 +36,9 @@
   font-weight: 400;
   white-space: nowrap;
   text-overflow: ellipsis;
-  padding-top: 51px;
+  overflow: hidden;
+  padding-top: 40px;
+  width: 100%;
 }
 .type-1171 .content5 .panel_toolbox>li {
   float: left;
@@ -87,7 +89,7 @@
 .type-1171 .content5 p {
   margin-top: 10px;
   margin-left: 5px;
-  padding: 0px;
+  padding: 0;
 }
 .type-1171 .content5 .degrees:after {
   content: "o";
@@ -113,7 +115,11 @@
   width: 100%;
 }
 .type-1171 .content5 ul .dropdown-menu {
-  left: -105px;
+  left: -99px;
+}
+.type-1171 .content5 .world {
+  background-color: #fff !important;
+  margin-left: -6px !important;
 }
 @media (max-width: 1200px) {
   .col-md-4 h2 {
@@ -124,13 +130,69 @@
   ul {
     padding: 0px 9px;
   }
+  h3 {
+    margin-left: 12px !important;
+    margin-top: 38px !important;
+    overflow: hidden;
+    width: 79%;
+  }
+  .geo {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 60%;
+  }
+  .countries_list {
+    margin-left: 91px;
+  }
+  .map {
+    left: 6px !important;
+  }
 }
-@media (max-width: 360px) {
+@media (max-width: 640px) {
   .navbar-right {
     float: right;
     margin: 0 -15px;
   }
   .weather-text h3 {
-    padding: 0 !important;
+    padding: 4px !important;
+  }
+  h3 {
+    margin-left: 63px !important;
+    margin-top: -43px !important;
+    overflow: hidden;
+    width: 79%;
+  }
+  .geo {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 65%;
+  }
+  .map {
+    left: 6px !important;
+  }
+  .countries_list {
+    margin-left: 3px !important;
+  }
+}
+@media (max-width: 1233px) {
+  h3 {
+    margin-left: 5px;
+    margin-top: 42px;
+    overflow: hidden;
+    width: 113%;
+  }
+  .geo {
+    margin-left: -2px !important;
+    margin-top:  !important;
+    overflow: hidden;
+    width: 70%;
+  }
+  .map {
+    left: 6px !important;
+  }
+  .countries_list {
+    margin-left: 110px;
   }
 }

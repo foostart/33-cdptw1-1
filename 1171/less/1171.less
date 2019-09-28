@@ -23,12 +23,12 @@
         }
         h2 {
             @h;
-            overflow: hidden;   
+            
         }
         h3 {
             @h;
-            padding-top: @padding-margin + 41;
-             
+            padding-top: @padding-margin + 30;
+            width: @width;
         }
 
 
@@ -82,7 +82,7 @@
         p{
             margin-top: @padding-margin;
             margin-left: @padding-margin - 5;
-            padding: 0px;
+            padding: 0;
         }
         .degrees:after {
             content: "o";
@@ -105,11 +105,18 @@
             white-space: nowrap;
             text-overflow: ellipsis;
             overflow: hidden;   
-            width: 100%;
+            width: @width;
         }
         ul .dropdown-menu{
-            left: -105px;
+            left: @left - 109;
         }
+        
+        .world{
+            background-color: #fff !important;
+            margin-left: -6px !important;
+           
+        }   
+        
     } 
 }
 @media (max-width: 1200px)
@@ -125,17 +132,78 @@
     ul{
         padding: 0px 9px;
     }
-
+    h3 {
+        margin-left: @padding-margin + 2 !important;
+        margin-top: @padding-margin + 28 !important;
+       
+        overflow: hidden;   
+        width: @width - 21;
+    }
+    .geo{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden; 
+        width: @width - 40;  
+    }
+    .countries_list{
+        margin-left: @padding-margin + 81;
+    }
+    .map{
+        left: @left - 4 !important;
+    }
 }
-@media (max-width: 360px){
+@media (max-width: 640px){
     .navbar-right{
         float: right;
         margin: 0 -15px;
     }
     .weather-text h3{
-        padding: 0 !important;
+        padding: 4px !important;
+        
+    }
+    h3 {
+        margin-left: @padding-margin + 53 !important;
+        margin-top: @padding-margin - 53 !important;
+       
+        overflow: hidden;   
+        width: @width - 21;
+    }
+    .geo{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden; 
+        width: @width - 35;  
+    }
+    .map{
+        left: @left - 4 !important;
+    }
+    .countries_list{
+        margin-left: @padding-margin - 7 !important;
     }
 }
+
+@media (max-width: 1233px){
+  
+    h3 {
+        margin-left: @padding-margin - 5;
+    margin-top: @padding-margin + 32 ;
+    overflow: hidden;
+    width: 113%;
+    }
+    .geo{
+        margin-left: @padding-margin - 12 !important;
+    margin-top: @padding-margin-6 !important;
+    overflow: hidden;
+    width: 70%; 
+    }
+    .map{
+        left: @left - 4 !important;
+    }
+    .countries_list{
+        margin-left: @padding-margin + 100;
+    }
+}
+    
 
 
 
