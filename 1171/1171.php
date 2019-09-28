@@ -23,19 +23,19 @@
         <title>1171</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/1171.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/font-awesome-v4.6.3.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/bootstrap-v3.3.6.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $url_path ?>/css/1171.css" rel="stylesheet" type="text/css" />
         
-        <script src="js/jquery.min.js" ></script>
-        <script src="js/bootstrap.min.js" ></script>
-        <script src="js/weather-icons.js"></script>
-        <script src="js/jquery.vmap.js" ></script>
-        <script src="js/jquery.vmap.world.js"></script>
-        <script src="js/jquery.vmap.sampledata.js" ></script>
-        <script src="js/jquery.jqGauges.min.js"></script>
-        <script src="js/init-script.js"></script>
-        <script src="js/map.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery-v2.2.4.min.js" ></script>
+        <script src="<?php echo $url_path ?>/js/bootstrap-v3.3.2.min.js" ></script>
+        <script src="<?php echo $url_path ?>/js/weather-icons.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery.vmap.js" ></script>
+        <script src="<?php echo $url_path ?>/js/jquery.vmap.world.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery.vmap.sampledata.js" ></script>
+        <script src="<?php echo $url_path ?>/js/jquery.jqGauges.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/init-script.js"></script>
+        <script src="<?php echo $url_path ?>/js/1171.js"></script>
     </head>
     <body>
         <?php include $dir_block.'/1171-content.php'; ?>

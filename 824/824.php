@@ -13,7 +13,7 @@ if (!class_exists('lessc')) {
 }
 
 $less = new lessc;
-$less->compileFile('less/824.less', 'css/styles.css');
+$less->compileFile('less/824.less', 'css/824.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,17 +22,17 @@ $less->compileFile('less/824.less', 'css/styles.css');
     <title>824</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo $url_path ?>/css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/bootstrap-v4.1.1.min.css" rel="stylesheet">
+    <link href="<?php echo $url_path ?>/css/824.css" rel="stylesheet" type="text/css" />
     <!--Fontawesome CDN-->
 
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
-    <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+    <link href="<?php echo $url_path ?>/css/font-awesome-v4.7.0.min.css" rel="stylesheet">
+    <script src="<?php echo $url_path ?>/js/jquery-v1.10.2.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/bootstrap-v3.3.2.min.js"></script>
 </head>
 
 <body>
-    <?php include '../824/824-content.php'; ?>
+    <?php include $dir_block.'/824-content.php'; ?>
 
 </body>
 

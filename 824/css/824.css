@@ -6,81 +6,84 @@ body {
   height: 100%;
   font-family: 'Numans', sans-serif;
 }
-.container {
+.type-824 {
+  padding-top: 118px;
+}
+.type-824 .container {
   height: 100%;
   align-content: center;
 }
-.card {
+.type-824 .card {
   height: 370px;
   margin-top: auto;
   margin-bottom: auto;
   width: 400px;
   background-color: rgba(0,0,0,0.5) !important;
 }
-.social_icon {
+.type-824 .social_icon {
   position: absolute;
   right: 20px;
   top: -45px;
 }
-.social_icon span i {
+.type-824 .social_icon span i {
   font-size: 60px;
   margin-left: 10px;
   color: #FFC312;
   margin-top: 13px;
 }
-.social_icon span i:hover {
+.type-824 .social_icon span i:hover {
   color: white;
   cursor: pointer;
 }
-.card-header h3 {
+.type-824 .card-header h3 {
   color: white;
 }
-.input-group-prepend span {
+.type-824 .input-group-prepend span {
   width: 50px;
   background-color: #FFC312;
   color: black;
   border: 0 !important;
 }
-input:focus {
+.type-824 input:focus {
   outline: 0;
   box-shadow: 0 0 0 0 !important;
 }
-.remember {
+.type-824 .remember {
   color: white;
 }
-.remember input {
+.type-824 .remember input {
   width: 20px;
   height: 20px;
   margin-left: 15px;
   margin-right: 5px;
 }
-.btn-login {
+.type-824 .btn-login {
   color: black;
   background-color: #FFC312;
   width: 100px;
   margin-left: 126px;
 }
-.btn-login:hover {
+.type-824 .btn-login:hover {
   color: black;
   background-color: white;
 }
-.links {
+.type-824 .links {
   color: white;
 }
-.links a {
+.type-824 .links a {
   margin-left: 4px;
   text-decoration: none;
 }
-i {
+.type-824 i {
   padding-left: 6px;
 }
 @media only screen and (min-width: 414px) and (max-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-  .card {
+  .type-824 .card {
     height: 80%;
   }
 }
 @media only screen and (min-width: 375px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: Portrait) {
-  .btn-login {
+  .type-824 .btn-login {
     margin-left: 110px;
   }
 }

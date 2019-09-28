@@ -28,6 +28,7 @@
   border: 1px solid #93A2B2;
   border-left: 0;
   color: #93A2B2;
+  height: 34px;
 }
 @media (max-width: 480px) {
   .type-1173 .page-title h3 {
